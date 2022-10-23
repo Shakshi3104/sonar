@@ -17,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		CEB8050C29053B04000D3835 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CEB8050E29053D41000D3835 /* sonar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sonar-icon.png"; sourceTree = "<group>"; };
 		CEF69F0A290519D5007B14B0 /* sonar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sonar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF69F0D290519D5007B14B0 /* sonarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sonarApp.swift; sourceTree = "<group>"; };
 		CEF69F0F290519D5007B14B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,9 +38,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CEB8050D29053CB0000D3835 /* materials */ = {
+			isa = PBXGroup;
+			children = (
+				CEB8050E29053D41000D3835 /* sonar-icon.png */,
+			);
+			path = materials;
+			sourceTree = "<group>";
+		};
 		CEF69F01290519D5007B14B0 = {
 			isa = PBXGroup;
 			children = (
+				CEB8050D29053CB0000D3835 /* materials */,
 				CEB8050C29053B04000D3835 /* README.md */,
 				CEF69F0C290519D5007B14B0 /* sonar */,
 				CEF69F0B290519D5007B14B0 /* Products */,
